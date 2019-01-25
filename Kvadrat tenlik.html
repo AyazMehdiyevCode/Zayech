@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    var A=1,B=-20,C=9,X1,X2,D;
+   
+    if(A!=0){
+
+        D=Math.pow(B,2)-4*A*C;
+
+        if(D>0){
+
+        X1= (-B + Math.sqrt(D))/ 2*A;
+
+        X2= (-B - Math.sqrt(D))/ 2*A;
+            alert("X1="+X1, "X2="+X2)
+        }
+        else if (D==0){
+            X1= -B/2*A;
+            alert( "Tənliyin bir kökü var : X="+X1);
+        }
+        else{
+            alert("Tənliyin həlli yoxdur");
+        }
+
+     
+    }
+        
+
+
+
+    </script>
+    
+</body>
+</html>
