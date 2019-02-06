@@ -1,0 +1,85 @@
+/*Header*/
+.header {
+	background-color:#111;
+	width:700px;
+	height:100px;
+}
+/*Body*/
+.body {
+	background-color:none;
+	width:700px;
+	height:600px;
+}
+.leftSide {
+	background-color:#222;
+	width:140px;
+	height:600px;
+	float:left;
+}
+.center {
+	background-color:none;
+	width:420px;
+	height:600px;
+	float:left;
+}
+.topCenter {
+	background-color:#333;
+	width:420px;
+	height:300px;
+	float:left;
+}
+.bottomCenter {
+	background-color:none;
+	width:420px;
+	height:300px;
+	float:left;
+}
+.bottomCenter1{background-color:#111;
+	width:140px;
+	height:150px;
+	float:left;
+	
+}
+.bottomCenter2{background-color:#222;
+	width:140px;
+	height:150px;
+	float:left;
+	
+}
+.bottomCenter3{background-color:#555;
+	width:140px;
+	height:150px;
+	float:left;
+	
+}
+.bottomCenter4{background-color:#444;
+	width:140px;
+	height:150px;
+	float:left;
+	
+}
+.bottomCenter5{background-color:#666;
+	width:140px;
+	height:150px;
+	float:left;
+	
+}
+.bottomCenter6{background-color:#111;
+	width:140px;
+	height:150px;
+	float:left;
+	
+}
+.rightSide {
+	background-color:#444;
+	width:140px;
+	height:600px;
+	float:right;
+}
+/*Footer*/
+.footer {
+	background-color:#555;
+	width:700px;
+	height:100px;
+	clear:both;
+}
