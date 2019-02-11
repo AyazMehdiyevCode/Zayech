@@ -1,0 +1,79 @@
+div>div {
+	background-color:#999;
+	font-size: 40px;
+	width: 75px;
+	line-height: 75px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:15px;
+}
+div{
+		background-color:#444;
+		display:flex;
+		margin:5px
+}
+.Box1 {	justify-content:center;}
+.Box2 {	justify-content:space-around;	}
+.Box3 {	justify-content:space-between;}
+.Box4 {
+	height:200px;
+	justify-content:space-around;
+	align-items:center;
+}
+.Box5 {
+	justify-content:space-around;
+	flex-wrap: wrap;
+	height:150px;
+	align-items:flex-end;
+	flex-direction:row-reverse;
+	
+}
+.Box6 {
+	flex-direction:column-reverse;
+	align-items:center;
+}
+.Box7 {
+	flex-direction:column-reverse;
+	justify-content:center;
+	align-items:center;
+	height:350px;
+}
+.sira1 {
+	order: 1;
+}
+.sira2 {
+align-self:flex-start;
+}
+.sira3 {
+align-self:flex-end;
+}
+.Box8{
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	align-content:center;
+	height:300px;
+	align-items:center;
+	line-height:25px;
+	
+	
+}
+.Box9{
+	flex-wrap: wrap-reverse;
+	align-items:flex-start;
+	height:500px;
+	flex-direction: row-reverse;
+	}
+
+.tek{
+align-self:flex-end
+}
+.Box10 {
+	flex-wrap: wrap-reverse;
+	align-items:flex-start;
+	height:450px;
+	flex-direction: column-reverse;
+	}
+.tek2{
+align-self:flex-end
+}
