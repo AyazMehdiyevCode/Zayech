@@ -1,0 +1,166 @@
+.// div{
+	position:absolute;
+	border:1px dashed black;
+	width:200px;
+	height:100px;
+	.//animation-name: changeColor;
+	.//animation-direction:alternate;
+	.//animation-iteration-count:infinite;
+	.//animation-timing-function:linear;
+	.//animation-duration:3s;
+	animation:changeColor 2s linear 0s 3 alternate;
+	
+}
+.//@keyframes changeColor{
+	from {top: 0px; background:#99ccff;}
+	to{top:500px;background:red;}
+}
+div { 
+width:250px;
+height:250px;
+position:relative;
+}
+div:nth-child(1)>div {
+	position:relative;
+	width: 150px;
+	height: 150px ;
+	animation:exemple 3s linear infinite alternate;
+}
+
+@keyframes exemple {
+from {background-color:red;
+		}
+to {background-color:blue;}
+}
+div:nth-child(2)>div{
+	position:relative;
+	width: 50px;
+	height: 50px;
+	animation:exemple2 3s linear infinite alternate;
+}
+@keyframes exemple2 {
+	0% {background:red; left:0px ; top:0px}
+	25% {background:blue; left:0px ; top:200px}
+	50% {background:gree; left:200px ; top:200px}
+	75% {background:yellow; left:200px ; top:0px}
+	100% {background:red; left:0px ; top:0px}
+}
+div:nth-child(3)>div{
+	position:relative;
+	width: 50px;
+	height: 50px;
+	animation:exemple3 3s linear 1s infinite alternate;
+
+}
+@keyframes exemple3 {
+	0% {background:red; left:0px ; top:0px}
+	25% {background:blue; left:0px ; top:200px}
+	50% {background:gree; left:200px ; top:200px}
+	75% {background:yellow; left:200px ; top:0px}
+	100% {background:red; left:0px ; top:0px}
+}
+div:nth-child(4) {
+width:300px;
+height:300px;
+position:relative;
+border:1px dashed black
+}
+div:nth-child(4)>div{
+	bottom:0px;
+	left:0px;
+	background-color:#99ccff;
+	border: 1px dashed black;
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+	animation:exemple4 5s linear infinite normal;
+}
+@keyframes exemple4 {
+	0% 	{left:0px ; top:280px}
+	20% {left:140px ; top:0px}
+	40% {left:280px ; top:280px}
+	60% {left:0px ; top:90px}
+	80% {left:280px ; top:90px}
+	100%{left:0px ; top:280px}
+}
+div:nth-child(5) {
+	width:400px;
+	height:400px;
+	position:relative;
+	border:1px dashed #99ccff;
+	border-radius:50%;
+}
+div:nth-child(5)>div{
+	top:190px;
+	left:190px;
+	background-color:#99ccff;
+	border: 1px dashed black;
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+}
+div:nth-child(5)>div:nth-child(1){
+	animation:topCircle1 3s linear infinite alternate forwards;
+}
+@keyframes topCircle1{
+	0% 	{top:190px;left:190px;}
+	100%{top:100px;left:190px;}
+}
+div:nth-child(5)>div:nth-child(2){
+	animation:topCircle2 3s linear infinite alternate forwards;
+}
+@keyframes topCircle2{
+	0% 	{top:190px;left:190px;}
+	100%{top:145px;left:172px;}
+}
+div:nth-child(5)>div:nth-child(3){
+	animation:topCircle3 3s linear infinite alternate forwards;
+}
+@keyframes topCircle3{
+	0% 	{top:190px;left:190px;}
+	100%{top:190px;left:153px;}
+}
+div:nth-child(5)>div:nth-child(4){
+	animation:topCircle4 3s linear infinite alternate forwards;
+}
+@keyframes topCircle4{
+	0% 	{top:190px;left:190px;}
+	100%{top:145px;left:210px;}
+}
+div:nth-child(5)>div:nth-child(5){
+	animation:topCircle5 3s linear infinite alternate forwards;
+}
+@keyframes topCircle5{
+	0% 	{top:190px;left:190px;}
+	100%{top:190px;left:230px;}
+}
+div:nth-child(5)>div:nth-child(6){
+	animation:topCircle6 3s linear infinite alternate forwards;
+}
+@keyframes topCircle6{
+	0% 	{top:190px;left:190px;}
+	100%{top:230px;left:137px;}
+}
+div:nth-child(5)>div:nth-child(7){
+	animation:topCircle7 3s linear infinite alternate forwards;
+}
+@keyframes topCircle7{
+	0% 	{top:190px;left:190px;}
+	100%{top:230px;left:247px;}
+}
+div:nth-child(5)>div:nth-child(8){
+	animation:topCircle8 3s linear infinite alternate forwards;
+}
+@keyframes topCircle8{
+	0% 	{top:190px;left:190px;}
+	100%{top:270px;left:265px;}
+}
+div:nth-child(5)>div:nth-child(9){
+	animation:topCircle9 3s linear infinite alternate forwards;
+}
+@keyframes topCircle9{
+	0% 	{top:190px;left:190px;}
+	100%{top:270px;left:120px;}
+}
