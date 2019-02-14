@@ -1,0 +1,56 @@
+ul {list-style-type:none;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+li {
+	width:100px;
+	height:50px;
+	background-color:#9999ff;
+	font-size:20px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-radius:5%
+		}
+ul>li:nth-child(1) {background-color:#4d4dff ; animation:dropMenu1 3s linear 0s 1 normal forwards
+}
+ul>li:nth-child(2) {animation:dropMenu2 3s linear 1s 1 normal forwards
+}
+ul>li:nth-child(3) {animation:dropMenu3 3s linear 1s 1 normal forwards
+}
+ul>li:nth-child(4) {animation:dropMenu4 3s linear 0s 1 normal forwards
+}
+ul>li:nth-child(5) {animation:dropMenu5 3s linear 2s 1 normal forwards
+}
+
+@keyframes dropMenu1 {
+	from{transform:translate(0px, 0px) rotate(0deg)}
+	to{transform:translate(0px, 650px) rotate(270deg)}
+}
+@keyframes dropMenu2 {
+	from{transform:translate(0px, 0px) rotate(0deg)}
+	to{transform:translate(-23px, 648px) rotate(45deg)}
+}
+@keyframes dropMenu3 {
+	from{transform:translate(0px, 0px) rotate(0deg)}
+	to{transform:translate(10px, 652px) rotate(-38deg)}
+}
+@keyframes dropMenu4 {
+	from{transform:translate(0px, 0px) rotate(0deg)}
+	to{transform:translate(0px, 675px) rotate(180deg)}
+}
+@keyframes dropMenu5 {
+	0%{transform:translate(0px, 0px) rotate(0deg)}
+	50%{transform:translate(-80px, 597px) rotate(50deg); transform-origin: center center}
+	100%{transform:translate(-140px, 625px) rotate(90deg); transform-origin: right bottom}
+}
+
+
+.//ul>li:nth-child(1){transform:translate(0px, 650px) rotate(270deg)}
+.//ul>li:nth-child(2){transform:translate(-23px, 648px) rotate(45deg)}
+.//ul>li:nth-child(3){transform:translate(10px, 652px) rotate(-38deg)}
+.//ul>li:nth-child(4){transform:translate(0px, 675px) rotate(180deg)}
+.//ul>li:nth-child(5){transform:translate(-100px, 597px) rotate(50deg); transform-origin: center center}
+
